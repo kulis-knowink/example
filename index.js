@@ -5,7 +5,7 @@ const foo = () => "foo"
 
 
 //starts bar
-const bar = (capitalize = false) =>  capitalize ? 'Bar' : 'bar'
+const bar = (uppercase = false) =>  uppercase ? 'BAR' : 'bar'
 
 
 // adds baz
