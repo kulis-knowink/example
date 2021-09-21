@@ -4,4 +4,5 @@
 const foo = () => "foo"
 
 
-// starts bar
+//starts bar
+const bar = (capitalize = false) =>  capitalize ? 'Bar' : 'bar'
