@@ -9,3 +9,4 @@ const bar = (capitalize = false) =>  capitalize ? 'Bar' : 'bar'
 
 
 // adds baz
+const baz = () => {}
