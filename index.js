@@ -5,4 +5,4 @@ const foo = () => "foo"
 
 
 //starts bar
-const bar = (capitalize = false) =>  capitalize ? "Bar" : "bar"
+const bar = (capitalize = false) =>  capitalize ?? "Bar" ?? "bar"
