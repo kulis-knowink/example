@@ -1,1 +1,4 @@
 // index.js
+
+
+const foo = () => {}
